@@ -1,0 +1,28 @@
+Install ollama for windows
+ollama pull deepseek-r1:32b
+ollama pull deepseek-r1:8b
+(Check enviroment:) pip freeze > requirements.txt
+(replace requirements file contents with:) 
+
+
+Required Enviroment files:
+pip install langchain-ollama langchain-core langchain-community pydantic SpeechRecognition pyttsx3
+
+(when complete check the install run:)
+pip list
+
+Install SQLite: 
+python -c "import sqlite3; print(sqlite3.sqlite_version)"
+
+pip install --upgrade langchain
+pip install pyttsx3 SpeechRecognition
+
+To read from local docs:
+pip install PyPDF2 python-docx
+pip install pymupdf python-docx
+
+Install Audio Package:
+pip install pyaudio
+
+
+
